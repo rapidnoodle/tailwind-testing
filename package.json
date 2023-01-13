@@ -1,0 +1,23 @@
+{
+	"name": "tailwind-testing",
+	"version": "1.0.0",
+	"description": "Testing the power of Tailwind CSS!",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+		"watch": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/rapidnoodle/tailwind-testing.git"
+	},
+	"author": "rapidnoodle",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/rapidnoodle/tailwind-testing/issues"
+	},
+	"homepage": "https://github.com/rapidnoodle/tailwind-testing#readme",
+	"devDependencies": {
+		"tailwindcss": "^3.2.4"
+	}
+}

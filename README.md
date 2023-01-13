@@ -1,1 +1,3 @@
-# tailwind-testing
+# Tailwind Testing
+
+Testing the power of Tailwind CSS!
